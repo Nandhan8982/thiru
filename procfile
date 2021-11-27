@@ -1,1 +1,1 @@
-web: application osms.wsgi --log-file -
+web: gunicorn osms.wsgi --log-file -
