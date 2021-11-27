@@ -1,1 +1,1 @@
-web: gunicorn --bind 0.0.0.0:$PORT osms:osmsapp
+gunicorn osms.wsgi:application --log-file - --log-level debug
