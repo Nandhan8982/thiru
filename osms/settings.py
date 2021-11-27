@@ -27,7 +27,7 @@ SECRET_KEY = '7xm18ukp@eize6oaaa-(t5h2!&k285(6538)81x$q0t9zq96f8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://oxygen-supply-management1.herokuapp.com']
 
 
 # Application definition
